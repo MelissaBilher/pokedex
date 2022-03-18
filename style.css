@@ -12,5 +12,5 @@ main {
 .pokedex {
   background-color: coral;
   display: flex;
-
+  gap: 30px
 }
