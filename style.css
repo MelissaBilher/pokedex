@@ -46,3 +46,19 @@ main {
   padding: 2px 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+.details {
+color: #ffffff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.cards-image {
+  width: 350px;
+  height: 350px;
+}
+
+.card img { 
+  max-height: 100%;
+}
