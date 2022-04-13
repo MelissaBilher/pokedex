@@ -31,4 +31,18 @@ main {
 
 .cards-top {
   background-color: blue;
+  padding: 30px 40px 0;
+}
+
+.name {
+  margin-bottom: 5px;
+}
+
+.type { 
+  font-size: 12px;
+  background-color: #ffffff;
+  opacity: 0.7;
+  border-radius: 10px;
+  padding: 2px 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
