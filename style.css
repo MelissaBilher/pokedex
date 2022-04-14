@@ -72,3 +72,21 @@ align-items: center;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
+
+.status, .skills {
+  padding: 0 10px;
+  width: 180px;
+}
+
+.card-info h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #6b727a;
+}
+
+ul li {
+  border-bottom: 1px solid #c3c4c5;
+  padding: 0 0 5px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
