@@ -25,6 +25,7 @@ main {
 }
 
 .cards-pokemon {
+ display: none;
  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
  border-radius: 10px;
 }
@@ -89,4 +90,8 @@ ul li {
   padding: 0 0 5px;
   margin-bottom: 5px;
   font-size: 15px;
+}
+
+.card.open {
+  display: block;
 }
