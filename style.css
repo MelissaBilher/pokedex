@@ -25,10 +25,14 @@ main {
 }
 
 .cards-pokemon {
- display: none;
  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
  border-radius: 10px;
+ height:min-content;
 }
+
+.cards-pokemon .card {
+  display: none;
+ }
 
 .cards-top {
   background-color: blue;
