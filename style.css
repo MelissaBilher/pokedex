@@ -14,6 +14,7 @@ main {
  display: flex;
  align-items: center;
  justify-content: center;
+ background-color: #dadfe8;
 }
 
 .pokedex {
@@ -120,4 +121,27 @@ ul li {
 
 .tipo-dragao {
   background-color: #c29791;
+}
+
+.listing {
+  max-width: 200px;
+}
+
+.listing .Pokemon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  background-color: #6b727a;
+  color: #ffffff;
+  padding: 0 5px;
+  cursor: pointer;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  min-height:  70px;
+}
+
+.Pokemon img {
+  width: 25%;
+  border-radius: 50%;
 }
