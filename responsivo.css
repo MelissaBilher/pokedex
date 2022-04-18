@@ -18,8 +18,39 @@
 }
 
 .cards-pokemon .card-info {
-  
+  padding: 60px 30px 30px;
+  margin-top:-50px;
 }
 
+.cards-pokemon .card-info h3 {
+  font-size: 16px;
+}
 
+.cards-pokemon .card-info ul li {
+  font-size: 12px;
+}
+
+.listing {
+  max-width: 300px;
+}
+
+.listing ul {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.listing .Pokemon {
+  width: 140px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-bottom: 0;
+}
+
+.listing .Pokemon span {
+  padding-right: 5px;
+  font-size: 12px;
+}
 }
