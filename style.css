@@ -130,7 +130,7 @@ ul li {
 .listing .Pokemon {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content:space-between;
   margin-bottom: 10px;
   background-color: #6b727a;
   color: #ffffff;
@@ -139,9 +139,23 @@ ul li {
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
   min-height:  70px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.15s ease-in-out;
 }
 
-.Pokemon img {
+.listing .Pokemon:hover {
+  transform: scale(1.05);
+}
+
+.listing .Pokemon img {
   width: 25%;
   border-radius: 50%;
+}
+
+.listing .Pokemon scan {
+  padding-right: 20px;
+}
+
+.listing .Pokemon.ativo {
+  background-color: #fa6668;
 }
