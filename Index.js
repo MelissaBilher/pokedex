@@ -13,12 +13,16 @@
   //Evento de clique feito pelo usuário na listagem.  
   
  Pokemon.addEventListener('click', () => {
-    //Ao clicar em um pokemon da listagem pegamos o id desse card para saber qual mostrar.
+   // remover a classe aberto do cartão que estiver aberto
+   const cardPokemonOpen = document.querySelector('.open')  
+   cardPokemonOpen.classList.remove('open')
+   
+   //Ao clicar em um pokemon da listagem pegamos o id desse card para saber qual mostrar.
     const idPokemonSelect = Pokemon.attributes.id.value 
 
-    const cardPokemonOpen = document.getElementById('card-bulbasaur')
+    const cardPokemonWillOpen = document.getElementById('card-' + idPokemonSelect)
+    cardPokemonWillOpen.classList.add('open')
 
-    cardPokemonOpen.classList.add('open')
   })
  })
 
