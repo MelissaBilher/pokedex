@@ -14,13 +14,14 @@
   <link rel="stylesheet" href="responsivo.css">
 
 
+
 </head>
 
 <body>
   <main>
     <div class="pokedex">
       <div class="cards-pokemon">
-        <div class="card open tipo-eletrico">
+        <div class="card open tipo-eletrico" id="card-pikachu"> 
           <div class="cards-top">
             <div class="details">
               <h2 class="name">Pikachu</h2>
@@ -52,7 +53,7 @@
           </div>
         </div>
 
-        <div class="card tipo-grama">
+        <div class="card tipo-grama" id="card-bulbasaur">
           <div class="cards-top">
             <div class="details">
               <h2 class="name">Bulbasaur</h2>
@@ -85,7 +86,7 @@
 
         </div>
 
-        <div class="card tipo-fogo">
+        <div class="card tipo-fogo" id="card-charmander">
           <div class="cards-top">
             <div class="details">
               <h2 class="name">Charmander</h2>
@@ -118,7 +119,7 @@
 
         </div>
 
-        <div class="card tipo-agua">
+        <div class="card tipo-agua" id="card-gyarados">
           <div class="cards-top">
             <div class="details">
               <h2 class="name">Gyarados</h2>
@@ -151,7 +152,7 @@
 
         </div>
 
-        <div class="card tipo-trevas">
+        <div class="card tipo-trevas" id="card-gengar">
           <div class="cards-top">
             <div class="details">
               <h2 class="name">Gengar</h2>
@@ -184,7 +185,7 @@
 
         </div>
 
-        <div class="card tipo-dragao">
+        <div class="card tipo-dragao" id="card-dragonite">
           <div class="cards-top">
             <div class="details">
               <h2 class="name">Dragonite</h2>
@@ -220,27 +221,27 @@
 
       <nav class="listing">
         <ul>
-          <li class="Pokemon ativo">
+          <li class="Pokemon ativo" id="pikachu">
             <img src="images/cabeca-pikachu.png" alt="Imagem Pikachu">
             <span>Pikachu</span>
           </li>
-          <li class="Pokemon">
+          <li class="Pokemon" id="bulbasaur">
             <img src="images/cabeca-bulbasaur.png" alt="Imagem Bulbasaur">
             <span>Bulbasaur</span>
           </li>
-          <li class="Pokemon">
+          <li class="Pokemon" id="charmander">
             <img src="images/cabeca-charmander.png" alt="Imagem Charmander">
             <span>Charmander</span>
           </li>
-          <li class="Pokemon">
+          <li class="Pokemon" id="gyarados">
             <img src="images/cabeca-gyarados.png" alt="Imagem Gyarados">
             <span>Gyarados</span>
           </li>
-          <li class="Pokemon">
+          <li class="Pokemon" id="gengar">
             <img src="images/cabeca-gengar.png" alt="Imagem Gengar">
             <span>Gengar</span>
           </li>
-          <li class="Pokemon">
+          <li class="Pokemon" id="dragonite">
             <img src="images/cabeca-dragonite.png" alt="Imagem Dragonite">
             <span>Dragonite</span>
           </li>
@@ -248,6 +249,6 @@
       </nav>
     </div>
   </main>
+  <script src="Index.js"></script>
 </body>
-
 </html>
