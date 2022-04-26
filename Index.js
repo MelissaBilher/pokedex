@@ -23,6 +23,12 @@
     const cardPokemonWillOpen = document.getElementById('card-' + idPokemonSelect)
     cardPokemonWillOpen.classList.add('open')
 
+    const listPokemonOpen = document.querySelector('.ativo')  
+    listPokemonOpen.classList.remove('ativo')
+    
+    const listPokemonWillOpen = document.getElementById(idPokemonSelect)
+    listPokemonWillOpen.classList.add('ativo')
+
   })
  })
 
